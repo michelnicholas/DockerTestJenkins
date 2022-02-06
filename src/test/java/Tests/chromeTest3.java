@@ -12,19 +12,7 @@ import java.net.URL;
 
 public class chromeTest3 {
 
-    // Before test we will operate Docker start file in start docker class
-    @BeforeTest
-    public void startDockerScale() throws IOException, InterruptedException {
-        startDocker s = new startDocker();
-        s.startFile();
-    }
 
-    // After test we will operate docker stop file in start docker class
-    @AfterTest
-    public void stopDockerDeleteFile() throws IOException, InterruptedException {
-        stopDocker stop = new stopDocker();
-        stop.stopFile();
-    }
 
 
 

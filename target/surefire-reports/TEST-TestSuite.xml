@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="45.58" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="118.761" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\Miche\AppData\Local\Temp\surefire13848344077168079470\surefirebooter9745640325670981246.jar C:\Users\Miche\AppData\Local\Temp\surefire13848344077168079470 2022-02-05T22-23-00_436-jvmRun1 surefire6898517630053165131tmp surefire_010457856516697921955tmp"/>
+    <property name="sun.java.command" value="C:\Users\Miche\AppData\Local\Temp\surefire17753336229383731223\surefirebooter14168096419524166515.jar C:\Users\Miche\AppData\Local\Temp\surefire17753336229383731223 2022-02-05T22-59-45_450-jvmRun1 surefire14029248723873585232tmp surefire_011680047504627325132tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Miche\IdeaProjects\DockerTestJenkins\target\test-classes;C:\Users\Miche\IdeaProjects\DockerTestJenkins\target\classes;C:\Users\Miche\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Miche\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Miche\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Miche\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Miche\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Miche\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Miche\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Miche\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Miche\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Miche\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Miche\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Miche\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Miche\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Miche\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Miche\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Miche\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Miche\AppData\Local\Temp\surefire13848344077168079470\surefirebooter9745640325670981246.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Miche\AppData\Local\Temp\surefire17753336229383731223\surefirebooter14168096419524166515.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
@@ -55,31 +55,33 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="test1" classname="Tests.chromeTest1" time="2.094">
+  <testcase name="test1" classname="Tests.chromeTest1" time="3.704">
     <system-out><![CDATA[Found my Text
+Found my Text
+Found my Text
 Google
 Docker Test Ended
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Feb 05, 2022 10:23:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Feb 05, 2022 11:01:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="test2" classname="Tests.chromeTest2" time="1.91">
+  <testcase name="test2" classname="Tests.chromeTest2" time="1.787">
     <system-out><![CDATA[Google
 Docker Test Ended
 ]]></system-out>
-    <system-err><![CDATA[Feb 05, 2022 10:23:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Feb 05, 2022 11:01:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="test3" classname="Tests.chromeTest3" time="5.119">
+  <testcase name="test3" classname="Tests.chromeTest3" time="4.807">
     <system-out><![CDATA[Yahoo | Mail, Weather, Search, Politics, News, Finance, Sports & Videos
 Docker Test Ended
 ]]></system-out>
-    <system-err><![CDATA[Feb 05, 2022 10:23:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+    <system-err><![CDATA[Feb 05, 2022 11:01:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
