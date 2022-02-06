@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="C:/Users/Miche/IdeaProjects/FullStackFramework(failed)" verbose="0">
+    <classes>
+      <class name="Tests.chromeTest2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Tests.chromeTest2 -->
+      <class name="Tests.chromeTest1">
+        <methods>
+          <include name="test1"/>
+          <include name="startDockerScale"/>
+          <include name="stopDockerDeleteFile"/>
+        </methods>
+      </class> <!-- Tests.chromeTest1 -->
+      <class name="Tests.chromeTest3">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- Tests.chromeTest3 -->
+    </classes>
+  </test> <!-- C:/Users/Miche/IdeaProjects/FullStackFramework(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

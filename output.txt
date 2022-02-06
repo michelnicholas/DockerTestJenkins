@@ -1,0 +1,542 @@
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Running 0/0
+ - Network dockertestjenkins_default  Creating 0.1s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockertestjenkins_default  Creating 0.1s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockertestjenkins_default  Creating 0.3s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockertestjenkins_default  Creating 0.3s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockertestjenkins_default  Creating 0.5s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockertestjenkins_default  Creating 0.6s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockertestjenkins_default  Creating 0.7s
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ - Network dockertestjenkins_default  Creating 0.8s
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ - Network dockertestjenkins_default  Created 0.8s
+ - Container selenium-hub             Creating 0.1s
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ - Network dockertestjenkins_default      Created 0.8s
+ - Container selenium-hub                 Created 0.1s
+ - Container dockertestjenkins-chrome-1   Creating 0.1s
+ - Container dockertestjenkins-edge-1     Creating 0.1s
+ - Container dockertestjenkins-firefox-1  Creating 0.1s
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[+] Running 2/5
+ - Network dockertestjenkins_default      Created 0.8s
+ - Container selenium-hub                 Created 0.1s
+ - Container dockertestjenkins-chrome-1   Creating 0.2s
+ - Container dockertestjenkins-edge-1     Creating 0.2s
+ - Container dockertestjenkins-firefox-1  Creating 0.2s
+[?25h[1A[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 5/5[0m
+ - Network dockertestjenkins_default      Created 0.8s
+ - Container selenium-hub                 Created 0.1s
+ - Container dockertestjenkins-chrome-1   Created 0.2s
+ - Container dockertestjenkins-edge-1     Created 0.2s
+ - Container dockertestjenkins-firefox-1  Created 0.2s
+[?25hAttaching to dockertestjenkins-chrome-1, dockertestjenkins-edge-1, dockertestjenkins-firefox-1, selenium-hub
+selenium-hub                 | 2022-02-06 02:57:00,228 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-hub                 | 2022-02-06 02:57:00,231 INFO supervisord started with pid 8
+selenium-hub                 | 2022-02-06 02:57:01,236 INFO spawned: 'selenium-grid-hub' with pid 10
+selenium-hub                 | 02:57:01.780 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-hub                 | 2022-02-06 02:57:01,784 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-hub                 | 02:57:01.786 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-hub                 | 02:57:01.877 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://192.168.128.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://192.168.128.2:4443]
+selenium-hub                 | 02:57:01.938 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://192.168.128.2:4442 and tcp://192.168.128.2:4443
+selenium-hub                 | 02:57:01.955 INFO [UnboundZmqEventBus.<init>] - Sockets created
+selenium-hub                 | 02:57:02.957 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:03,651 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:03,653 INFO supervisord started with pid 9
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:03,699 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:03,702 INFO supervisord started with pid 9
+dockertestjenkins-edge-1     | 2022-02-06 02:57:03,727 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockertestjenkins-edge-1     | 2022-02-06 02:57:03,730 INFO supervisord started with pid 9
+selenium-hub                 | 02:57:03.733 INFO [Hub.execute] - Started Selenium Hub 4.1.2 (revision 9a5a329c5a): http://192.168.128.2:4444
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:04,656 INFO spawned: 'xvfb' with pid 11
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:04,658 INFO spawned: 'vnc' with pid 12
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:04,660 INFO spawned: 'novnc' with pid 13
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:04,662 INFO spawned: 'selenium-node' with pid 15
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:04,697 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:04,697 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:04,697 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-firefox-1  | 2022-02-06 02:57:04,697 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:04,705 INFO spawned: 'xvfb' with pid 11
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:04,708 INFO spawned: 'vnc' with pid 12
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:04,709 INFO spawned: 'novnc' with pid 13
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:04,712 INFO spawned: 'selenium-node' with pid 15
+dockertestjenkins-edge-1     | 2022-02-06 02:57:04,733 INFO spawned: 'xvfb' with pid 11
+dockertestjenkins-edge-1     | 2022-02-06 02:57:04,737 INFO spawned: 'vnc' with pid 12
+dockertestjenkins-edge-1     | 2022-02-06 02:57:04,739 INFO spawned: 'novnc' with pid 13
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:04,739 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:04,739 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:04,739 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:04,740 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-edge-1     | 2022-02-06 02:57:04,742 INFO spawned: 'selenium-node' with pid 14
+dockertestjenkins-edge-1     | 2022-02-06 02:57:04,805 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-edge-1     | 2022-02-06 02:57:04,805 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-edge-1     | 2022-02-06 02:57:04,805 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-edge-1     | 2022-02-06 02:57:04,805 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-firefox-1  | Generating Selenium Config
+dockertestjenkins-chrome-1   | Generating Selenium Config
+dockertestjenkins-chrome-1   | Configuring server...
+dockertestjenkins-chrome-1   | Setting up SE_NODE_HOST...
+dockertestjenkins-chrome-1   | Setting up SE_NODE_PORT...
+dockertestjenkins-chrome-1   | Setting up SE_NODE_GRID_URL...
+dockertestjenkins-firefox-1  | Configuring server...
+dockertestjenkins-firefox-1  | Setting up SE_NODE_HOST...
+dockertestjenkins-firefox-1  | Setting up SE_NODE_PORT...
+dockertestjenkins-firefox-1  | Setting up SE_NODE_GRID_URL...
+dockertestjenkins-edge-1     | Generating Selenium Config
+dockertestjenkins-edge-1     | Configuring server...
+dockertestjenkins-edge-1     | Setting up SE_NODE_HOST...
+dockertestjenkins-edge-1     | Setting up SE_NODE_PORT...
+dockertestjenkins-edge-1     | Setting up SE_NODE_GRID_URL...
+dockertestjenkins-firefox-1  | Selenium Grid Node configuration: 
+dockertestjenkins-firefox-1  | [events]
+dockertestjenkins-firefox-1  | publish = "tcp://selenium-hub:4442"
+dockertestjenkins-firefox-1  | subscribe = "tcp://selenium-hub:4443"
+dockertestjenkins-firefox-1  | 
+dockertestjenkins-firefox-1  | [node]
+dockertestjenkins-firefox-1  | session-timeout = "300"
+dockertestjenkins-firefox-1  | override-max-sessions = false
+dockertestjenkins-firefox-1  | detect-drivers = false
+dockertestjenkins-firefox-1  | max-sessions = 1
+dockertestjenkins-firefox-1  | 
+dockertestjenkins-firefox-1  | [[node.driver-configuration]]
+dockertestjenkins-firefox-1  | display-name = "firefox"
+dockertestjenkins-firefox-1  | stereotype = '{"browserName": "firefox", "browserVersion": "96.0", "platformName": "Linux"}'
+dockertestjenkins-firefox-1  | max-sessions = 1
+dockertestjenkins-firefox-1  | 
+dockertestjenkins-firefox-1  | Starting Selenium Grid Node...
+dockertestjenkins-chrome-1   | Selenium Grid Node configuration: 
+dockertestjenkins-chrome-1   | [events]
+dockertestjenkins-chrome-1   | publish = "tcp://selenium-hub:4442"
+dockertestjenkins-chrome-1   | subscribe = "tcp://selenium-hub:4443"
+dockertestjenkins-chrome-1   | 
+dockertestjenkins-chrome-1   | [node]
+dockertestjenkins-chrome-1   | session-timeout = "300"
+dockertestjenkins-chrome-1   | override-max-sessions = false
+dockertestjenkins-chrome-1   | detect-drivers = false
+dockertestjenkins-chrome-1   | max-sessions = 1
+dockertestjenkins-chrome-1   | 
+dockertestjenkins-chrome-1   | [[node.driver-configuration]]
+dockertestjenkins-chrome-1   | display-name = "chrome"
+dockertestjenkins-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "97.0", "platformName": "Linux"}'
+dockertestjenkins-chrome-1   | max-sessions = 1
+dockertestjenkins-chrome-1   | 
+dockertestjenkins-chrome-1   | Starting Selenium Grid Node...
+dockertestjenkins-edge-1     | Selenium Grid Node configuration: 
+dockertestjenkins-edge-1     | [events]
+dockertestjenkins-edge-1     | publish = "tcp://selenium-hub:4442"
+dockertestjenkins-edge-1     | subscribe = "tcp://selenium-hub:4443"
+dockertestjenkins-edge-1     | 
+dockertestjenkins-edge-1     | [node]
+dockertestjenkins-edge-1     | session-timeout = "300"
+dockertestjenkins-edge-1     | override-max-sessions = false
+dockertestjenkins-edge-1     | detect-drivers = false
+dockertestjenkins-edge-1     | max-sessions = 1
+dockertestjenkins-edge-1     | 
+dockertestjenkins-edge-1     | [[node.driver-configuration]]
+dockertestjenkins-edge-1     | display-name = "MicrosoftEdge"
+dockertestjenkins-edge-1     | stereotype = '{"browserName": "MicrosoftEdge", "browserVersion": "97.0", "platformName": "Linux"}'
+dockertestjenkins-edge-1     | max-sessions = 1
+dockertestjenkins-edge-1     | 
+dockertestjenkins-edge-1     | Starting Selenium Grid Node...
+dockertestjenkins-firefox-1  | 02:57:05.858 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockertestjenkins-firefox-1  | 02:57:05.863 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockertestjenkins-chrome-1   | 02:57:05.954 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockertestjenkins-chrome-1   | 02:57:05.959 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockertestjenkins-firefox-1  | 02:57:05.975 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockertestjenkins-edge-1     | 02:57:05.979 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockertestjenkins-edge-1     | 02:57:05.986 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockertestjenkins-firefox-1  | 02:57:06.043 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockertestjenkins-chrome-1   | 02:57:06.093 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockertestjenkins-edge-1     | 02:57:06.110 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockertestjenkins-chrome-1   | 02:57:06.144 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockertestjenkins-edge-1     | 02:57:06.163 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockertestjenkins-firefox-1  | 02:57:07.047 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-firefox-1  | 02:57:07.144 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.128.3:5555
+dockertestjenkins-chrome-1   | 02:57:07.147 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-firefox-1  | 02:57:07.160 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockertestjenkins-edge-1     | 02:57:07.166 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-firefox-1  | 02:57:07.231 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "96.0","browserName": "firefox","platformName": "Linux","se:vncEnabled": true} 1 times
+dockertestjenkins-firefox-1  | 02:57:07.244 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+dockertestjenkins-chrome-1   | 02:57:07.271 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.128.4:5555
+dockertestjenkins-chrome-1   | 02:57:07.292 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockertestjenkins-edge-1     | 02:57:07.311 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.128.5:5555
+dockertestjenkins-edge-1     | 02:57:07.342 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockertestjenkins-chrome-1   | 02:57:07.366 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "97.0","browserName": "chrome","platformName": "Linux","se:vncEnabled": true} 1 times
+selenium-hub                 | 02:57:07.377 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+dockertestjenkins-chrome-1   | 02:57:07.382 INFO [Node.<init>] - Binding additional locator mechanisms: id, name, relative
+dockertestjenkins-edge-1     | 02:57:07.421 INFO [NodeOptions.report] - Adding MicrosoftEdge for {"browserVersion": "97.0","browserName": "MicrosoftEdge","platformName": "Linux","se:vncEnabled": true} 1 times
+dockertestjenkins-edge-1     | 02:57:07.437 INFO [Node.<init>] - Binding additional locator mechanisms: id, relative, name
+dockertestjenkins-firefox-1  | 02:57:07.563 INFO [NodeServer$1.start] - Starting registration process for node id 9fa5f4f2-5924-41ee-a627-2e2ce434afe1
+dockertestjenkins-firefox-1  | 02:57:07.568 INFO [NodeServer.execute] - Started Selenium node 4.1.2 (revision 9a5a329c5a): http://192.168.128.3:5555
+dockertestjenkins-firefox-1  | 02:57:07.573 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+dockertestjenkins-edge-1     | 02:57:07.794 INFO [NodeServer$1.start] - Starting registration process for node id f7230460-2f4c-4d08-9846-eeadf7b4e90d
+dockertestjenkins-edge-1     | 02:57:07.797 INFO [NodeServer.execute] - Started Selenium node 4.1.2 (revision 9a5a329c5a): http://192.168.128.5:5555
+dockertestjenkins-chrome-1   | 02:57:07.798 INFO [NodeServer$1.start] - Starting registration process for node id cabfe7fb-7bdd-4efa-8e76-fb57fb099546
+dockertestjenkins-chrome-1   | 02:57:07.808 INFO [NodeServer.execute] - Started Selenium node 4.1.2 (revision 9a5a329c5a): http://192.168.128.4:5555
+dockertestjenkins-edge-1     | 02:57:07.804 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+dockertestjenkins-chrome-1   | 02:57:07.814 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub                 | 02:57:08.083 INFO [LocalDistributor.add] - Added node 9fa5f4f2-5924-41ee-a627-2e2ce434afe1 at http://192.168.128.3:5555. Health check every 120s
+selenium-hub                 | 02:57:08.086 INFO [Node.<init>] - Binding additional locator mechanisms: name, relative, id
+dockertestjenkins-firefox-1  | 02:57:08.094 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub                 | 02:57:08.263 INFO [LocalDistributor.add] - Added node cabfe7fb-7bdd-4efa-8e76-fb57fb099546 at http://192.168.128.4:5555. Health check every 120s
+selenium-hub                 | 02:57:08.265 INFO [Node.<init>] - Binding additional locator mechanisms: id, name, relative
+dockertestjenkins-chrome-1   | 02:57:08.268 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub                 | 02:57:08.395 INFO [LocalDistributor.add] - Added node f7230460-2f4c-4d08-9846-eeadf7b4e90d at http://192.168.128.5:5555. Health check every 120s
+selenium-hub                 | 02:57:08.397 INFO [GridModel.setAvailability] - Switching node 9fa5f4f2-5924-41ee-a627-2e2ce434afe1 (uri: http://192.168.128.3:5555) from DOWN to UP
+selenium-hub                 | 02:57:08.399 INFO [GridModel.setAvailability] - Switching node cabfe7fb-7bdd-4efa-8e76-fb57fb099546 (uri: http://192.168.128.4:5555) from DOWN to UP
+dockertestjenkins-edge-1     | 02:57:08.399 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub                 | 02:57:08.407 INFO [GridModel.setAvailability] - Switching node f7230460-2f4c-4d08-9846-eeadf7b4e90d (uri: http://192.168.128.5:5555) from DOWN to UP
+dockertestjenkins-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:10,271 WARN received SIGTERM indicating exit request
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:10,271 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:11,272 INFO stopped: selenium-node (terminated by SIGTERM)
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:12,274 INFO stopped: novnc (terminated by SIGTERM)
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:13,276 INFO stopped: vnc (terminated by SIGTERM)
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:13,276 INFO waiting for xvfb to die
+dockertestjenkins-chrome-1   | 2022-02-06 02:57:14,277 INFO stopped: xvfb (terminated by SIGTERM)
+dockertestjenkins-chrome-1   | Shutdown complete
+dockertestjenkins-chrome-1 exited with code 143
+1b7190fe18d3_dockertestjenkins-chrome-1 exited with code 0
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:18,858 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:18,861 INFO supervisord started with pid 9
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:19,425 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:19,427 INFO supervisord started with pid 8
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:19,703 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:19,706 INFO supervisord started with pid 8
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:19,863 INFO spawned: 'xvfb' with pid 11
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:19,864 INFO spawned: 'vnc' with pid 12
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:19,867 INFO spawned: 'novnc' with pid 13
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:19,870 INFO spawned: 'selenium-node' with pid 14
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:19,902 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:19,902 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:19,902 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-2               | 2022-02-06 02:57:19,902 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:19,904 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:19,906 INFO supervisord started with pid 9
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:20,134 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:20,135 INFO supervisord started with pid 9
+dockertestjenkins-chrome-2               | Generating Selenium Config
+dockertestjenkins-chrome-2               | Configuring server...
+dockertestjenkins-chrome-2               | Setting up SE_NODE_HOST...
+dockertestjenkins-chrome-2               | Setting up SE_NODE_PORT...
+dockertestjenkins-chrome-2               | Setting up SE_NODE_GRID_URL...
+dockertestjenkins-chrome-2               | Selenium Grid Node configuration: 
+dockertestjenkins-chrome-2               | [events]
+dockertestjenkins-chrome-2               | publish = "tcp://selenium-hub:4442"
+dockertestjenkins-chrome-2               | subscribe = "tcp://selenium-hub:4443"
+dockertestjenkins-chrome-2               | 
+dockertestjenkins-chrome-2               | [node]
+dockertestjenkins-chrome-2               | session-timeout = "300"
+dockertestjenkins-chrome-2               | override-max-sessions = false
+dockertestjenkins-chrome-2               | detect-drivers = false
+dockertestjenkins-chrome-2               | max-sessions = 1
+dockertestjenkins-chrome-2               | 
+dockertestjenkins-chrome-2               | [[node.driver-configuration]]
+dockertestjenkins-chrome-2               | display-name = "chrome"
+dockertestjenkins-chrome-2               | stereotype = '{"browserName": "chrome", "browserVersion": "97.0", "platformName": "Linux"}'
+dockertestjenkins-chrome-2               | max-sessions = 1
+dockertestjenkins-chrome-2               | 
+dockertestjenkins-chrome-2               | Starting Selenium Grid Node...
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:20,428 INFO spawned: 'xvfb' with pid 10
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:20,430 INFO spawned: 'vnc' with pid 11
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:20,432 INFO spawned: 'novnc' with pid 12
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:20,433 INFO spawned: 'selenium-node' with pid 13
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:20,467 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:20,467 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:20,467 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-3               | 2022-02-06 02:57:20,467 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-2               | 02:57:20.603 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockertestjenkins-chrome-2               | 02:57:20.607 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockertestjenkins-chrome-2               | 02:57:20.683 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:20,711 INFO spawned: 'xvfb' with pid 10
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:20,713 INFO spawned: 'vnc' with pid 11
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:20,714 INFO spawned: 'novnc' with pid 12
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:20,717 INFO spawned: 'selenium-node' with pid 13
+dockertestjenkins-chrome-2               | 02:57:20.727 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:20,739 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:20,740 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:20,740 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-1               | 2022-02-06 02:57:20,740 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-3               | Generating Selenium Config
+dockertestjenkins-chrome-3               | Configuring server...
+dockertestjenkins-chrome-3               | Setting up SE_NODE_HOST...
+dockertestjenkins-chrome-3               | Setting up SE_NODE_PORT...
+dockertestjenkins-chrome-3               | Setting up SE_NODE_GRID_URL...
+dockertestjenkins-chrome-3               | Selenium Grid Node configuration: 
+dockertestjenkins-chrome-3               | [events]
+dockertestjenkins-chrome-3               | publish = "tcp://selenium-hub:4442"
+dockertestjenkins-chrome-3               | subscribe = "tcp://selenium-hub:4443"
+dockertestjenkins-chrome-3               | 
+dockertestjenkins-chrome-3               | [node]
+dockertestjenkins-chrome-3               | session-timeout = "300"
+dockertestjenkins-chrome-3               | override-max-sessions = false
+dockertestjenkins-chrome-3               | detect-drivers = false
+dockertestjenkins-chrome-3               | max-sessions = 1
+dockertestjenkins-chrome-3               | 
+dockertestjenkins-chrome-3               | [[node.driver-configuration]]
+dockertestjenkins-chrome-3               | display-name = "chrome"
+dockertestjenkins-chrome-3               | stereotype = '{"browserName": "chrome", "browserVersion": "97.0", "platformName": "Linux"}'
+dockertestjenkins-chrome-3               | max-sessions = 1
+dockertestjenkins-chrome-3               | 
+dockertestjenkins-chrome-3               | Starting Selenium Grid Node...
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:20,908 INFO spawned: 'xvfb' with pid 11
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:20,911 INFO spawned: 'vnc' with pid 12
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:20,913 INFO spawned: 'novnc' with pid 13
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:20,915 INFO spawned: 'selenium-node' with pid 14
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:20,953 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:20,953 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:20,953 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-4               | 2022-02-06 02:57:20,953 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-1               | Generating Selenium Config
+dockertestjenkins-chrome-1               | Configuring server...
+dockertestjenkins-chrome-1               | Setting up SE_NODE_HOST...
+dockertestjenkins-chrome-1               | Setting up SE_NODE_PORT...
+dockertestjenkins-chrome-1               | Setting up SE_NODE_GRID_URL...
+dockertestjenkins-chrome-1               | Selenium Grid Node configuration: 
+dockertestjenkins-chrome-1               | [events]
+dockertestjenkins-chrome-1               | publish = "tcp://selenium-hub:4442"
+dockertestjenkins-chrome-1               | subscribe = "tcp://selenium-hub:4443"
+dockertestjenkins-chrome-1               | 
+dockertestjenkins-chrome-1               | [node]
+dockertestjenkins-chrome-1               | session-timeout = "300"
+dockertestjenkins-chrome-1               | override-max-sessions = false
+dockertestjenkins-chrome-1               | detect-drivers = false
+dockertestjenkins-chrome-1               | max-sessions = 1
+dockertestjenkins-chrome-1               | 
+dockertestjenkins-chrome-1               | [[node.driver-configuration]]
+dockertestjenkins-chrome-1               | display-name = "chrome"
+dockertestjenkins-chrome-1               | stereotype = '{"browserName": "chrome", "browserVersion": "97.0", "platformName": "Linux"}'
+dockertestjenkins-chrome-1               | max-sessions = 1
+dockertestjenkins-chrome-1               | 
+dockertestjenkins-chrome-1               | Starting Selenium Grid Node...
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:21,139 INFO spawned: 'xvfb' with pid 11
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:21,142 INFO spawned: 'vnc' with pid 12
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:21,144 INFO spawned: 'novnc' with pid 13
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:21,146 INFO spawned: 'selenium-node' with pid 15
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:21,176 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:21,176 INFO success: vnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:21,176 INFO success: novnc entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-5               | 2022-02-06 02:57:21,176 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+dockertestjenkins-chrome-3               | 02:57:21.267 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockertestjenkins-chrome-3               | 02:57:21.271 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockertestjenkins-chrome-4               | Generating Selenium Config
+dockertestjenkins-chrome-4               | Configuring server...
+dockertestjenkins-chrome-4               | Setting up SE_NODE_HOST...
+dockertestjenkins-chrome-4               | Setting up SE_NODE_PORT...
+dockertestjenkins-chrome-4               | Setting up SE_NODE_GRID_URL...
+dockertestjenkins-chrome-3               | 02:57:21.398 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockertestjenkins-chrome-4               | Selenium Grid Node configuration: 
+dockertestjenkins-chrome-4               | [events]
+dockertestjenkins-chrome-4               | publish = "tcp://selenium-hub:4442"
+dockertestjenkins-chrome-4               | subscribe = "tcp://selenium-hub:4443"
+dockertestjenkins-chrome-4               | 
+dockertestjenkins-chrome-4               | [node]
+dockertestjenkins-chrome-4               | session-timeout = "300"
+dockertestjenkins-chrome-4               | override-max-sessions = false
+dockertestjenkins-chrome-4               | detect-drivers = false
+dockertestjenkins-chrome-4               | max-sessions = 1
+dockertestjenkins-chrome-4               | 
+dockertestjenkins-chrome-4               | [[node.driver-configuration]]
+dockertestjenkins-chrome-4               | display-name = "chrome"
+dockertestjenkins-chrome-4               | stereotype = '{"browserName": "chrome", "browserVersion": "97.0", "platformName": "Linux"}'
+dockertestjenkins-chrome-4               | max-sessions = 1
+dockertestjenkins-chrome-4               | 
+dockertestjenkins-chrome-4               | Starting Selenium Grid Node...
+dockertestjenkins-chrome-3               | 02:57:21.458 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockertestjenkins-chrome-5               | Generating Selenium Config
+dockertestjenkins-chrome-5               | Configuring server...
+dockertestjenkins-chrome-5               | Setting up SE_NODE_HOST...
+dockertestjenkins-chrome-5               | Setting up SE_NODE_PORT...
+dockertestjenkins-chrome-5               | Setting up SE_NODE_GRID_URL...
+dockertestjenkins-chrome-1               | 02:57:21.578 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockertestjenkins-chrome-1               | 02:57:21.583 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockertestjenkins-chrome-5               | Selenium Grid Node configuration: 
+dockertestjenkins-chrome-5               | [events]
+dockertestjenkins-chrome-5               | publish = "tcp://selenium-hub:4442"
+dockertestjenkins-chrome-5               | subscribe = "tcp://selenium-hub:4443"
+dockertestjenkins-chrome-5               | 
+dockertestjenkins-chrome-5               | [node]
+dockertestjenkins-chrome-5               | session-timeout = "300"
+dockertestjenkins-chrome-5               | override-max-sessions = false
+dockertestjenkins-chrome-5               | detect-drivers = false
+dockertestjenkins-chrome-5               | max-sessions = 1
+dockertestjenkins-chrome-5               | 
+dockertestjenkins-chrome-5               | [[node.driver-configuration]]
+dockertestjenkins-chrome-5               | display-name = "chrome"
+dockertestjenkins-chrome-5               | stereotype = '{"browserName": "chrome", "browserVersion": "97.0", "platformName": "Linux"}'
+dockertestjenkins-chrome-5               | max-sessions = 1
+dockertestjenkins-chrome-5               | 
+dockertestjenkins-chrome-5               | Starting Selenium Grid Node...
+dockertestjenkins-chrome-1               | 02:57:21.696 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockertestjenkins-chrome-2               | 02:57:21.729 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-chrome-1               | 02:57:21.744 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockertestjenkins-chrome-2               | 02:57:21.853 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.128.4:5555
+dockertestjenkins-chrome-2               | 02:57:21.869 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockertestjenkins-chrome-4               | 02:57:21.870 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockertestjenkins-chrome-4               | 02:57:21.875 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockertestjenkins-chrome-2               | 02:57:21.926 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "97.0","browserName": "chrome","platformName": "Linux","se:vncEnabled": true} 1 times
+dockertestjenkins-chrome-2               | 02:57:21.935 INFO [Node.<init>] - Binding additional locator mechanisms: relative, name, id
+dockertestjenkins-chrome-4               | 02:57:21.979 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+selenium-hub                             | 02:57:22.007 INFO [Node.<init>] - Binding additional locator mechanisms: id, name, relative
+dockertestjenkins-chrome-5               | 02:57:22.038 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+dockertestjenkins-chrome-5               | 02:57:22.045 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+dockertestjenkins-chrome-4               | 02:57:22.048 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockertestjenkins-chrome-2               | 02:57:22.144 INFO [NodeServer$1.start] - Starting registration process for node id 39b6646c-dab2-40aa-8cd1-f81e24a47cc7
+dockertestjenkins-chrome-2               | 02:57:22.146 INFO [NodeServer.execute] - Started Selenium node 4.1.2 (revision 9a5a329c5a): http://192.168.128.4:5555
+dockertestjenkins-chrome-2               | 02:57:22.149 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+dockertestjenkins-chrome-5               | 02:57:22.156 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-hub:4442 and tcp://selenium-hub:4443
+dockertestjenkins-chrome-5               | 02:57:22.200 INFO [UnboundZmqEventBus.<init>] - Sockets created
+dockertestjenkins-chrome-3               | 02:57:22.463 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-chrome-3               | 02:57:22.548 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.128.7:5555
+dockertestjenkins-chrome-3               | 02:57:22.560 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockertestjenkins-chrome-3               | 02:57:22.595 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "97.0","browserName": "chrome","platformName": "Linux","se:vncEnabled": true} 1 times
+dockertestjenkins-chrome-3               | 02:57:22.602 INFO [Node.<init>] - Binding additional locator mechanisms: id, relative, name
+dockertestjenkins-chrome-3               | 02:57:22.739 INFO [NodeServer$1.start] - Starting registration process for node id ce53abd0-fd56-476f-b6c9-a207fb0ce141
+dockertestjenkins-chrome-3               | 02:57:22.740 INFO [NodeServer.execute] - Started Selenium node 4.1.2 (revision 9a5a329c5a): http://192.168.128.7:5555
+dockertestjenkins-chrome-3               | 02:57:22.742 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+dockertestjenkins-chrome-1               | 02:57:22.747 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-chrome-1               | 02:57:22.843 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.128.6:5555
+dockertestjenkins-chrome-1               | 02:57:22.865 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockertestjenkins-chrome-1               | 02:57:22.890 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "97.0","browserName": "chrome","platformName": "Linux","se:vncEnabled": true} 1 times
+dockertestjenkins-chrome-1               | 02:57:22.898 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+dockertestjenkins-chrome-1               | 02:57:23.032 INFO [NodeServer$1.start] - Starting registration process for node id 2606d195-60ea-414d-a63d-f2f3f5889e93
+dockertestjenkins-chrome-1               | 02:57:23.033 INFO [NodeServer.execute] - Started Selenium node 4.1.2 (revision 9a5a329c5a): http://192.168.128.6:5555
+dockertestjenkins-chrome-1               | 02:57:23.035 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+dockertestjenkins-chrome-4               | 02:57:23.053 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-chrome-4               | 02:57:23.151 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.128.9:5555
+selenium-hub                             | 02:57:23.165 INFO [GridModel.add] - Re-adding node with id 39b6646c-dab2-40aa-8cd1-f81e24a47cc7 and URI http://192.168.128.4:5555.
+selenium-hub                             | 02:57:23.168 INFO [LocalDistributor.add] - Added node 39b6646c-dab2-40aa-8cd1-f81e24a47cc7 at http://192.168.128.4:5555. Health check every 120s
+selenium-hub                             | 02:57:23.171 INFO [Node.<init>] - Binding additional locator mechanisms: relative, name, id
+dockertestjenkins-chrome-2               | 02:57:23.182 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+dockertestjenkins-chrome-4               | 02:57:23.192 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockertestjenkins-chrome-5               | 02:57:23.203 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+dockertestjenkins-chrome-4               | 02:57:23.225 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "97.0","browserName": "chrome","platformName": "Linux","se:vncEnabled": true} 1 times
+dockertestjenkins-chrome-4               | 02:57:23.235 INFO [Node.<init>] - Binding additional locator mechanisms: name, id, relative
+selenium-hub                             | 02:57:23.303 INFO [LocalDistributor.add] - Added node ce53abd0-fd56-476f-b6c9-a207fb0ce141 at http://192.168.128.7:5555. Health check every 120s
+selenium-hub                             | 02:57:23.305 INFO [Node.<init>] - Binding additional locator mechanisms: id, relative, name
+dockertestjenkins-chrome-3               | 02:57:23.311 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+dockertestjenkins-chrome-5               | 02:57:23.325 INFO [NodeServer.createHandlers] - Reporting self as: http://192.168.128.8:5555
+dockertestjenkins-chrome-5               | 02:57:23.354 INFO [NodeOptions.getSessionFactories] - Detected 12 available processors
+dockertestjenkins-chrome-5               | 02:57:23.385 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "97.0","browserName": "chrome","platformName": "Linux","se:vncEnabled": true} 1 times
+dockertestjenkins-chrome-5               | 02:57:23.396 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+dockertestjenkins-chrome-4               | 02:57:23.402 INFO [NodeServer$1.start] - Starting registration process for node id 792be972-269e-4478-94a8-6a1d030325f0
+dockertestjenkins-chrome-4               | 02:57:23.403 INFO [NodeServer.execute] - Started Selenium node 4.1.2 (revision 9a5a329c5a): http://192.168.128.9:5555
+dockertestjenkins-chrome-4               | 02:57:23.405 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub                             | 02:57:23.443 INFO [LocalDistributor.add] - Added node 2606d195-60ea-414d-a63d-f2f3f5889e93 at http://192.168.128.6:5555. Health check every 120s
+selenium-hub                             | 02:57:23.444 INFO [GridModel.setAvailability] - Switching node 39b6646c-dab2-40aa-8cd1-f81e24a47cc7 (uri: http://192.168.128.4:5555) from DOWN to UP
+selenium-hub                             | 02:57:23.446 INFO [Node.<init>] - Binding additional locator mechanisms: name, id, relative
+dockertestjenkins-chrome-1               | 02:57:23.453 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+dockertestjenkins-chrome-5               | 02:57:23.578 INFO [NodeServer$1.start] - Starting registration process for node id 6744ab5d-8f75-4c39-a8fd-04902b56a376
+dockertestjenkins-chrome-5               | 02:57:23.580 INFO [NodeServer.execute] - Started Selenium node 4.1.2 (revision 9a5a329c5a): http://192.168.128.8:5555
+dockertestjenkins-chrome-5               | 02:57:23.583 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-hub                             | 02:57:23.600 INFO [LocalDistributor.add] - Added node 792be972-269e-4478-94a8-6a1d030325f0 at http://192.168.128.9:5555. Health check every 120s
+selenium-hub                             | 02:57:23.601 INFO [GridModel.setAvailability] - Switching node ce53abd0-fd56-476f-b6c9-a207fb0ce141 (uri: http://192.168.128.7:5555) from DOWN to UP
+selenium-hub                             | 02:57:23.602 INFO [GridModel.setAvailability] - Switching node 2606d195-60ea-414d-a63d-f2f3f5889e93 (uri: http://192.168.128.6:5555) from DOWN to UP
+dockertestjenkins-chrome-4               | 02:57:23.607 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub                             | 02:57:23.607 INFO [Node.<init>] - Binding additional locator mechanisms: id, name, relative
+selenium-hub                             | 02:57:23.712 INFO [LocalDistributor.add] - Added node 6744ab5d-8f75-4c39-a8fd-04902b56a376 at http://192.168.128.8:5555. Health check every 120s
+selenium-hub                             | 02:57:23.713 INFO [GridModel.setAvailability] - Switching node 792be972-269e-4478-94a8-6a1d030325f0 (uri: http://192.168.128.9:5555) from DOWN to UP
+dockertestjenkins-chrome-5               | 02:57:23.718 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-hub                             | 02:57:23.725 INFO [GridModel.setAvailability] - Switching node 6744ab5d-8f75-4c39-a8fd-04902b56a376 (uri: http://192.168.128.8:5555) from DOWN to UP
+selenium-hub                             | 02:57:38.542 INFO [LocalDistributor.newSession] - Session request received by the distributor: 
+selenium-hub                             |  [Capabilities {browserName: chrome}]
+dockertestjenkins-chrome-3               | Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 33421
+dockertestjenkins-chrome-3               | Only local connections are allowed.
+dockertestjenkins-chrome-3               | Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+dockertestjenkins-chrome-3               | [1644116258.643][SEVERE]: bind() failed: Cannot assign requested address (99)
+dockertestjenkins-chrome-3               | ChromeDriver was started successfully.
+dockertestjenkins-chrome-3               | 02:57:39.782 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+selenium-hub                             | 02:57:39.805 INFO [LocalDistributor.newSession] - Session created by the distributor. Id: 515af9c582d10c4e7c865554d4881caa, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.UE1YDh}, goog:chromeOptions: {debuggerAddress: localhost:32881}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:cdp: ws://192.168.128.7:4444/ses..., se:cdpVersion: 97.0.4692.99, se:vnc: ws://192.168.128.7:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.128.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub                             | 02:58:31.008 INFO [LocalDistributor.newSession] - Session request received by the distributor: 
+selenium-hub                             |  [Capabilities {browserName: chrome}]
+dockertestjenkins-chrome-1               | Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 56416
+dockertestjenkins-chrome-1               | Only local connections are allowed.
+dockertestjenkins-chrome-1               | Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+dockertestjenkins-chrome-1               | Chrome[D1r6i4v4e1r1 6w3a1s1 .s0t8a6r]t[eSdE VsEuRcEc]e:s sbfinudl(l)y .f
+dockertestjenkins-chrome-1               | ailed: Cannot assign requested address (99)
+dockertestjenkins-chrome-1               | 02:58:31.937 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+selenium-hub                             | 02:58:31.957 INFO [LocalDistributor.newSession] - Session created by the distributor. Id: 567aab91460975a90a9da08c7e7ab234, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.UgmAln}, goog:chromeOptions: {debuggerAddress: localhost:35831}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:cdp: ws://192.168.128.6:4444/ses..., se:cdpVersion: 97.0.4692.99, se:vnc: ws://192.168.128.6:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.128.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub                             | 02:58:32.898 INFO [LocalDistributor.newSession] - Session request received by the distributor: 
+selenium-hub                             |  [Capabilities {browserName: chrome}]
+dockertestjenkins-chrome-2               | Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 44957
+dockertestjenkins-chrome-2               | Only local connections are allowed.
+dockertestjenkins-chrome-2               | Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+dockertestjenkins-chrome-2               | ChromeDriver was started successfully.
+dockertestjenkins-chrome-2               | [1644116313.000][SEVERE]: bind() failed: Cannot assign requested address (99)
+dockertestjenkins-chrome-2               | 02:58:33.891 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+selenium-hub                             | 02:58:33.913 INFO [LocalDistributor.newSession] - Session created by the distributor. Id: f7e58f4b55c575fb1775198f399aa085, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.2ImNCw}, goog:chromeOptions: {debuggerAddress: localhost:44735}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:cdp: ws://192.168.128.4:4444/ses..., se:cdpVersion: 97.0.4692.99, se:vnc: ws://192.168.128.4:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.128.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-hub                             | 02:58:34.908 INFO [LocalDistributor.newSession] - Session request received by the distributor: 
+selenium-hub                             |  [Capabilities {browserName: chrome}]
+dockertestjenkins-chrome-5               | Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 44739
+dockertestjenkins-chrome-5               | Only local connections are allowed.
+dockertestjenkins-chrome-5               | Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+dockertestjenkins-chrome-5               | ChromeDriver was started successfully.
+dockertestjenkins-chrome-5               | [1644116315.037][SEVERE]: bind() failed: Cannot assign requested address (99)
+dockertestjenkins-chrome-5               | 02:58:36.520 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+selenium-hub                             | 02:58:36.545 INFO [LocalDistributor.newSession] - Session created by the distributor. Id: 14170794ef5bfea718a56f60504b3f2a, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.99, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.tuQ0lf}, goog:chromeOptions: {debuggerAddress: localhost:33521}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: {}, se:cdp: ws://192.168.128.8:4444/ses..., se:cdpVersion: 97.0.4692.99, se:vnc: ws://192.168.128.8:4444/ses..., se:vncEnabled: true, se:vncLocalAddress: ws://192.168.128.8:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+dockertestjenkins-firefox-1              | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockertestjenkins-chrome-3               | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockertestjenkins-chrome-1               | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockertestjenkins-chrome-4               | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockertestjenkins-edge-1                 | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockertestjenkins-chrome-5               | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockertestjenkins-chrome-2               | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+dockertestjenkins-firefox-1              | 2022-02-06 02:58:55,425 WARN received SIGTERM indicating exit request
+dockertestjenkins-firefox-1              | 2022-02-06 02:58:55,425 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockertestjenkins-edge-1                 | 2022-02-06 02:58:55,534 WARN received SIGTERM indicating exit request
+dockertestjenkins-edge-1                 | 2022-02-06 02:58:55,534 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockertestjenkins-chrome-5               | 2022-02-06 02:58:55,553 WARN received SIGTERM indicating exit request
+dockertestjenkins-chrome-5               | 2022-02-06 02:58:55,553 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockertestjenkins-chrome-4               | 2022-02-06 02:58:55,721 WARN received SIGTERM indicating exit request
+dockertestjenkins-chrome-4               | 2022-02-06 02:58:55,722 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockertestjenkins-chrome-3               | 2022-02-06 02:58:55,876 WARN received SIGTERM indicating exit request
+dockertestjenkins-chrome-3               | 2022-02-06 02:58:55,876 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockertestjenkins-chrome-2               | 2022-02-06 02:58:55,917 WARN received SIGTERM indicating exit request
+dockertestjenkins-chrome-2               | 2022-02-06 02:58:55,922 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockertestjenkins-chrome-1               | 2022-02-06 02:58:55,966 WARN received SIGTERM indicating exit request
+dockertestjenkins-chrome-1               | 2022-02-06 02:58:55,967 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+dockertestjenkins-firefox-1              | 2022-02-06 02:58:56,427 INFO stopped: selenium-node (terminated by SIGTERM)
+dockertestjenkins-edge-1                 | 2022-02-06 02:58:56,536 INFO stopped: selenium-node (terminated by SIGTERM)
+dockertestjenkins-chrome-5               | 2022-02-06 02:58:56,554 INFO stopped: selenium-node (terminated by SIGTERM)
+dockertestjenkins-chrome-4               | 2022-02-06 02:58:56,723 INFO stopped: selenium-node (terminated by SIGTERM)
+dockertestjenkins-chrome-3               | 2022-02-06 02:58:56,877 INFO stopped: selenium-node (terminated by SIGTERM)
+dockertestjenkins-chrome-2               | 2022-02-06 02:58:56,924 INFO stopped: selenium-node (terminated by SIGTERM)
+dockertestjenkins-chrome-1               | 2022-02-06 02:58:56,969 INFO stopped: selenium-node (terminated by SIGTERM)
+dockertestjenkins-firefox-1              | 2022-02-06 02:58:57,430 INFO stopped: novnc (terminated by SIGTERM)
+dockertestjenkins-edge-1                 | 2022-02-06 02:58:57,538 INFO stopped: novnc (terminated by SIGTERM)
+dockertestjenkins-chrome-5               | 2022-02-06 02:58:57,556 INFO stopped: novnc (terminated by SIGTERM)
+dockertestjenkins-chrome-4               | 2022-02-06 02:58:57,725 INFO stopped: novnc (terminated by SIGTERM)
+dockertestjenkins-chrome-3               | 2022-02-06 02:58:57,880 INFO stopped: novnc (terminated by SIGTERM)
+dockertestjenkins-chrome-2               | 2022-02-06 02:58:57,926 INFO stopped: novnc (terminated by SIGTERM)
+dockertestjenkins-chrome-1               | 2022-02-06 02:58:57,971 INFO stopped: novnc (terminated by SIGTERM)
+dockertestjenkins-firefox-1              | 2022-02-06 02:58:58,431 INFO stopped: vnc (terminated by SIGTERM)
+dockertestjenkins-firefox-1              | 2022-02-06 02:58:58,432 INFO waiting for xvfb to die
+dockertestjenkins-edge-1                 | 2022-02-06 02:58:58,540 INFO stopped: vnc (terminated by SIGTERM)
+dockertestjenkins-edge-1                 | 2022-02-06 02:58:58,540 INFO waiting for xvfb to die
+dockertestjenkins-chrome-5               | 2022-02-06 02:58:58,557 INFO stopped: vnc (terminated by SIGTERM)
+dockertestjenkins-chrome-5               | 2022-02-06 02:58:58,558 INFO waiting for xvfb to die
+dockertestjenkins-chrome-4               | 2022-02-06 02:58:58,727 INFO stopped: vnc (terminated by SIGTERM)
+dockertestjenkins-chrome-4               | 2022-02-06 02:58:58,727 INFO waiting for xvfb to die
+dockertestjenkins-chrome-3               | 2022-02-06 02:58:58,881 INFO stopped: vnc (terminated by SIGTERM)
+dockertestjenkins-chrome-3               | 2022-02-06 02:58:58,882 INFO waiting for xvfb to die
+dockertestjenkins-chrome-2               | 2022-02-06 02:58:58,927 INFO stopped: vnc (terminated by SIGTERM)
+dockertestjenkins-chrome-2               | 2022-02-06 02:58:58,928 INFO waiting for xvfb to die
+dockertestjenkins-chrome-1               | 2022-02-06 02:58:58,973 INFO stopped: vnc (terminated by SIGTERM)
+dockertestjenkins-chrome-1               | 2022-02-06 02:58:58,973 INFO waiting for xvfb to die
+dockertestjenkins-firefox-1              | 2022-02-06 02:58:59,434 INFO stopped: xvfb (terminated by SIGTERM)
+dockertestjenkins-firefox-1              | Shutdown complete
+dockertestjenkins-edge-1                 | 2022-02-06 02:58:59,542 INFO stopped: xvfb (terminated by SIGTERM)
+dockertestjenkins-edge-1                 | Shutdown complete
+dockertestjenkins-chrome-5               | 2022-02-06 02:58:59,559 INFO stopped: xvfb (terminated by SIGTERM)
+dockertestjenkins-chrome-5               | Shutdown complete
+dockertestjenkins-chrome-4               | 2022-02-06 02:58:59,729 INFO stopped: xvfb (terminated by SIGTERM)
+dockertestjenkins-chrome-4               | Shutdown complete
+Gracefully stopping... (press Ctrl+C again to force)
+failed to get console mode for stdout: The handle is invalid.
+failed to get console mode for stdout: The handle is invalid.

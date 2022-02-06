@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Miche/IdeaProjects/FullStackFramework">
+        <classes>
+            <class name="Tests.chromeTest1">
+                <methods>
+                    <include name="test1"/>
+                </methods>
+            </class>
+            <class name="Tests.chromeTest2">
+                <methods>
+                    <include name="test2"/>
+                </methods>
+            </class>
+            <class name="Tests.chromeTest3">
+                <methods>
+                    <include name="test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+Tests\firefoxStandAloneTest.class
+Tests\chromeTest2.class
+Tests\startDocker.class
+Tests\stopDocker.class
+Tests\chromeTest1.class
+Tests\chromeTest3.class
+Tests\chromeStandAloneTest.class
